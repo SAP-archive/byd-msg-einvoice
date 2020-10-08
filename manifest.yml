@@ -1,0 +1,11 @@
+applications:
+- name: afip
+  memory: 64M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+  env:
+    "AFIP_TICKET" : ""
+    "AFIP_TOKEN": ""
+    "AFIP_SIGN" : ""
+    "AFIP_CUIT" : null
+    "BYD_B64AUTH" : ""
