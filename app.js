@@ -72,7 +72,7 @@ app.post("/createInv", function (req, res) {
 // to create electronic invoice based on ByD Customer Invoice
 // It writes back the eInvoice Signature string back into the Customer Invoice
 app.post("/emArgWebhook", function (req, res) {
-  BYD.BydGetInvoice(req.body, req.query.tenant, function (error, resp) {
+  BYD.BydGetInvoice(req.body, req.query.bydTenant, function (error, resp) {
     if (error) {
       console.error("Error - " + error);
       res.send(error);
@@ -94,7 +94,7 @@ app.post("/emArgWebhook", function (req, res) {
               res.send(error);
             } else {
               var eSignature = resp.FECAESolicitarResult.FeDetResp.FECAEDetResponse;
-              BYD.BydUpdateInvoice(eSignature, req.body, req.query.tenant, function (error, resp) {
+              BYD.BydUpdateInvoice(eSignature, req.body, req.query.bydTenant, function (error, resp) {
                 if (error) {
                   console.error("Error - " + error);
                   res.send(error);
