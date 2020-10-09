@@ -7,5 +7,6 @@ applications:
     "AFIP_TICKET" : ""
     "AFIP_TOKEN": ""
     "AFIP_SIGN" : ""
-    "AFIP_CUIT" : null
+    "AFIP_CUIT" : ""
     "BYD_B64AUTH" : ""
+    "ERP_URL" : ""

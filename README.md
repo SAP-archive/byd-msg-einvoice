@@ -1,3 +1,3 @@
 # eInvoiceAfip
-Calls AFIP's electronic invoice SOAP webservices
+Backend that calls AFIP's electronic invoice SOAP webservices
 
