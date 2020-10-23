@@ -10,8 +10,9 @@ This application creates electronic invoices based on SAP Business ByDesign [Cus
 * SAP Business ByDesign Tenant
 * A [ByD Custom Odata Service](https://github.com/SAP-samples/sapbydesign-api-samples/) for [Customer Invoice](https://github.com/SAP-samples/sapbydesign-api-samples/blob/master/Custom%20OData%20Services/khcustomerinvoice.xml)
 
-**NOTE 1:** you must create a new extension field on customer invoice document, and add it to the OData service exposed above
-**NOTE 2:** Although we provide AFIP to issue the Electronic Invoice in this prototype, you can adapt the code to consume the Tax Authority web services you need.
+## Notes
+* you must create a new extension field on customer invoice document, and add it to the OData service exposed above
+* Although we took AFIP as the provider to issue the Electronic Invoice for this prototype, you can adapt the code to consume the Tax Authority web services you need.
 
 ## Deployment
 Clone or download this repository:
