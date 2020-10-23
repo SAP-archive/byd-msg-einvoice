@@ -4,9 +4,9 @@ applications:
   instances: 1
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
   env:
-    "AFIP_TICKET" : ""
-    "AFIP_TOKEN": ""
-    "AFIP_SIGN" : ""
-    "AFIP_CUIT" : ""
-    "BYD_B64AUTH" : ""
-    "ERP_URL" : ""
+    # "AFIP_TICKET" : ""
+    # "AFIP_TOKEN": ""
+    # "AFIP_SIGN" : ""
+    # "AFIP_CUIT" : ""
+    # "BYD_B64AUTH" : ""
+    # "ERP_URL" : ""
