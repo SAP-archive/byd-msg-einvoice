@@ -43,7 +43,7 @@ For details on how to deploy apps on SCP CF check this tutorial: [Get Started wi
 You must create at least one queue and subscribe a webhook to the queue, pointing to the application you have just deployed above. For details on how to create queues and subscribe webhooks, check this blog post: [SCP Enterprise Messaging for the SMBs](https://blogs.sap.com/2020/10/21/scp-enterprise-messaging-for-the-smbs)
 
 ## License
-This proof of concept is is released under the terms of the MIT license. See [LICENSE](LICENSE) for more information or see https://opensource.org/licenses/MIT.
+This proof of concept is released under the terms of the MIT license. See [LICENSE](LICENSE) for more information or see https://opensource.org/licenses/MIT.
  
 ## Support and Contributions
 This repository is provided "as-is". No support is available. Feel free to open issues or provide pull requests.
