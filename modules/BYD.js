@@ -84,7 +84,7 @@ function callBydUpdateInv(signature, data, tenant, callback) {
       console.log("Token and cookie retrieved successfully");
 
       body = {
-        eInvoiceSignature_KUT: signature[0].CAE + signature[0].CAEFchVto,
+        eInvSignature_SDK: signature[0].CAE + signature[0].CAEFchVto,
       };
 
       //Set HTTP Request Options
