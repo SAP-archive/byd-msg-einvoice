@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: byd-einvoice
+Upstream-Name: byd-msg-einvoice
 Upstream-Contact: Thiago de Castro Mendes <>
-Source: https://github.com/SAP-Samples/byd-einvoice
+Source: https://github.com/SAP-Samples/byd-msg-einvoice
 
 # Sample paragraph, commented out:
 #
