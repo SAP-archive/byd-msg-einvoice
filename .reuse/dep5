@@ -6,5 +6,5 @@ Source: https://github.com/SAP-Samples/byd-msg-einvoice
 # Sample paragraph, commented out:
 #
 Files: * 
-Copyright: 2020 SAP SE or an SAP affiliate company and byd-einvoice contributors
+Copyright: 2020 SAP SE or an SAP affiliate company and byd-msg-einvoice contributors
 License: Apache-2.0
