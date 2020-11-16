@@ -1,10 +1,13 @@
+[![License: Apache2](https://img.shields.io/badge/License-Apache2-green.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
 # A Decoupled Approach for the Electronic Invoicing
 [![](https://i.imgur.com/fn8PnPn.jpg)]()
 
-## Overview
+## Description
 This application creates electronic invoices based on SAP Business ByDesign [Custormer Invoice Documents](https://help.sap.com/viewer/2754875d2d2a403f95e58a41a9c7d6de/LATEST/en-US/2ce68f24722d1014b38dcc6246f15f03.html). When invoked, it pulls the data from ByD OData services, based on the message data, and calls the Tax Authority web service (in this case [AFIP](https://www.afip.gob.ar/ws/)) to issue the electronic invoice. Once it is authorized and created, the solution writes back the signature data into the ByD Customer Invoice extension field. We adopted the [SAP Cloud Platform Enterprise Messaging](https://blogs.sap.com/2020/10/21/scp-enterprise-messaging-for-the-smbs) as the default message broker service and [SAP Business ByDesign](https://www.sap.com/products/business-bydesign.html) as the core ERP.
 
-## Pre requisites
+## Requirements
 * SAP Cloud Platform Enterprise Messaging
 * Credentials to access [AFIP web services](https://www.afip.gob.ar/ws/)
 * SAP Business ByDesign Tenant
@@ -42,9 +45,9 @@ For details on how to deploy apps on SCP CF check this tutorial: [Get Started wi
 ### Configuring SAP Cloud Platform Enterprise Messaging
 You must create at least one queue and subscribe a webhook to the queue, pointing to the application you have just deployed above. For details on how to create queues and subscribe webhooks, check this blog post: [SCP Enterprise Messaging for the SMBs](https://blogs.sap.com/2020/10/21/scp-enterprise-messaging-for-the-smbs)
 
-## License
-This proof of concept is released under the terms of the MIT license. See [LICENSE](LICENSE) for more information or see https://opensource.org/licenses/MIT.
- 
 ## Support and Contributions
-This repository is provided "as-is". No support is available. Feel free to open issues or provide pull requests.
+This repository is provided "as-is". No warranty or support is available. Feel free to open issues.
+
+## License
+Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
 
